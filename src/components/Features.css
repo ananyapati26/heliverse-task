@@ -8,7 +8,7 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     overflow: hidden;
     padding: 100px 0px 100px 0px;
 
@@ -23,14 +23,14 @@
 }
 .heading{
     max-width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     flex-wrap: wrap;
     color: white;
 }
 .p{
-    margin: 0px 30px 0px 30px;
-    color: white;
+    margin: 10px 30px 0px 30px;
+    color: rgb(144, 142, 142);
     /* flex-wrap: wrap; */
 }
 .feature{
@@ -64,4 +64,8 @@
 .feature-img{
     width: 60%;
     height: 59%;
+}
+.f-text1{
+    color: white;
+    font-size: xx-large;
 }

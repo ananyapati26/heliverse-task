@@ -1,0 +1,166 @@
+.Application{
+    /* background-color: rgb(111, 203, 61); */
+    height: fit-content;
+    width: 820px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    padding: 100px 0px 0px 0px;
+    color: aliceblue;
+
+}
+.app-1{
+    width: 50%;
+    height: 325px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF10;
+    /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+    margin: 30px 10px 90px 10px;
+    padding: 30px 0px 20px 30px;
+    /* border: 1px solid yellow; */
+}
+.app-2{
+    width: 50%;
+    height: 325px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #0D061F 0%, #251E35 100%);
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FFFFFF10;
+    /* transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
+    margin: 100px 10px 0px 10px;
+    padding: 20px 0px 30px 30px;
+    /* border: 1px solid yellow; */
+}
+h2{
+    width: fit-content;
+}
+.card-text{
+    width: fit-content;
+}
+
+.card-1{
+    width: 90%;
+    height: 70%;
+}
+.a-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.a-text1{
+    text-align: center;
+    line-height: 3rem;
+    max-width: 400px;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 833px) {
+    .a-1{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .app-1{
+        width: 40%;
+        margin: 30px 5px 90px 10px;
+        padding: 30px 0px 20px 30px;
+        
+    }
+    .app-2{
+        width: 40%;
+        margin: 100px 10px 0px 5px;
+        padding: 20px 0px 30px 30px;
+        
+    }
+  }
+  @media (max-width: 769px) {
+    .a-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .app-1{
+        width: 50%;
+        margin: 10px 5px 20px 10px;
+        padding: 30px 0px 20px 30px;
+        
+    }
+    .app-2{
+        width: 50%;
+        margin: 10px 10px 0px 5px;
+        padding: 20px 0px 30px 30px;
+        
+    }
+  }
+  @media (max-width: 471px) {
+    .a-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .app-1{
+        width: 40%;
+        margin: 10px 5px 20px 10px;
+        padding: 30px 0px 20px 30px;
+        
+    }
+    .app-2{
+        width: 40%;
+        margin: 10px 10px 0px 5px;
+        padding: 20px 0px 30px 30px;
+        
+    }
+  }
+  @media (max-width: 380px) {
+    .a-1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .app-1{
+        width: 30%;
+        margin: 10px 5px 20px 10px;
+        padding: 30px 0px 20px 30px;
+        
+    }
+    .app-2{
+        width: 30%;
+        margin: 10px 10px 0px 5px;
+        padding: 20px 0px 30px 30px;
+        
+    }
+    .a-text1{
+        text-align: center;
+        line-height: 3rem;
+        max-width: 300px;
+        font-size: xx-large;
+        font-weight: bolder;
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }

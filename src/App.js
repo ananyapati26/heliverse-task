@@ -2,6 +2,7 @@
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Features from './components/Features';
+import Application from './components/Application';
 import Footer from './components/Footer';
 import Sponsors from './components/Sponsors';
 import './App.css';
@@ -24,10 +25,11 @@ const App = () => {
   return (
     
     <div className="App" >
-      {/* <canvas ref={canvasRef} style={{ width: '100vw', height: '100vh', zIndex: '-1000'}}> */}
+      {/* <canvas ref={canvasRef} style={{ width: '100%', height: '100%'}} id="particles" /> */}
 
       <Header />
       <HeroSection />
+      <Application/>
       <Sponsors />
       <Features />
       <Footer />

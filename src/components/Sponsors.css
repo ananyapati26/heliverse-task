@@ -28,13 +28,19 @@
     row-gap: 20px;
     text-align: center;
     width: 37%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 .pic{
     padding-top: 10px;
     width: 300px;
 }
-.s-text{
+.s-text1{
     margin: 0;
     color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+.s-text2{
+    margin: 0;
+    color: rgb(165, 165, 165);
+    font-size: small;
 }

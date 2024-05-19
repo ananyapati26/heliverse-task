@@ -1,14 +1,17 @@
 body, html, #root {
   font-family: Arial, sans-serif;
   margin: 0;
+  
 }
 
 .App {
-  
+  /* position: inherit; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #0E0F1A;
+  background-color: #0c0c1a;
   margin: 0;
   padding: 0;
+  width: 100vw;
+  overflow: hidden;
 }
