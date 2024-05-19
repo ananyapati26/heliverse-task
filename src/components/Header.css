@@ -1,0 +1,36 @@
+.header {
+    background: #262626;
+    color: white;
+    padding: 0.5em 3em 0.5em 3em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    /* z-index: 1000; */
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header li {
+    margin: 0 1em;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .btn-head{
+    background-color: #82B440;
+    color: white;
+    padding: 0.7em 1.7em 0.7em 1.7em;
+    border: none;
+    border-radius: 3px;
+  }
