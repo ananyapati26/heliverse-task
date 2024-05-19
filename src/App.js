@@ -25,7 +25,11 @@ const App = () => {
   return (
     
     <div className="App" >
+<<<<<<< HEAD
       {/* <canvas ref={canvasRef} style={{ width: '100%', height: '100%'}} id="particles" /> */}
+=======
+      {/* <canvas ref={canvasRef} style={{ width: '100vw', height: '100vh'}}> */}
+>>>>>>> 17154705038841d873959c1851e82a3ce150ce15
 
       <Header />
       <HeroSection />
