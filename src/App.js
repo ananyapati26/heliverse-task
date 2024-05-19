@@ -24,7 +24,7 @@ const App = () => {
   return (
     
     <div className="App" >
-      {/* <canvas ref={canvasRef} style={{ width: '100vw', height: '100vh', zIndex: '-1000'}}> */}
+      {/* <canvas ref={canvasRef} style={{ width: '100vw', height: '100vh'}}> */}
 
       <Header />
       <HeroSection />
