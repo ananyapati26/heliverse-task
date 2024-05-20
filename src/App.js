@@ -9,21 +9,23 @@ import './App.css';
 import { useEffect, useRef } from 'react';
 import webGLFluidEnhanced from 'webgl-fluid-enhanced';
 const App = () => {
-  // const canvasRef = useRef(null);
+  const canvasRef = useRef(null);
 
-  // useEffect(() => {
-  //   webGLFluidEnhanced.simulation(canvasRef.current, {
-  //     SIM_RESOLUTION: 256,
-  //     DENSITY_DISSIPATION: 0.8,
-  //     PRESSURE_ITERATIONS: 30,
-  //     COLOR_PALETTE: ['#61dafb', '#a8dadc', '#457b9d', '#1d3557', '#f1faee'],
-  //   });
-  // }, []);
+  useEffect(() => {
+    webGLFluidEnhanced.simulation(canvasRef.current, {
+      SIM_RESOLUTION: 128,
+      DENSITY_DISSIPATION: 0.6,
+      PRESSURE_ITERATIONS: 30,
+      BACK_COLOR: '#0c0c1a', 
+      SPLAT_AMOUNT: 4,
+      });
+  }, []);
   
 
 
   return (
-    
+    <>
+    <canvas ref={canvasRef} style={{ width: '100%', height: '100%',position:"fixed",zIndex:"0"}} id="particles" />
     <div className="App" >
       {/* <canvas ref={canvasRef} style={{ width: '100%', height: '100%'}} id="particles" /> */}
 
@@ -34,6 +36,7 @@ const App = () => {
       <Features />
       <Footer />
     </div>
+    </>
   );
 };
 

@@ -9,13 +9,13 @@ const Application = () => {
             <p className='a-text a-text1'>Apply On Any Section Or Enable For Whole Page</p>
             <div className="a-1">
                 <div className='app-1'>
-                    <h2>lalalal</h2>
-                    <p className='card-text'>dhnjudefhdehbfjbfujf</p>
+                    <h2>Apply On Section</h2>
+                    <p className='card-text'>Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website. </p>
                     <img className='card-1' src={img10} alt='ntg' />
                 </div>
                 <div className='app-2'>
-                    <h2>lalalal</h2>
-                    <p className='card-text'>dhnjudefhdehbfjbfujf</p>
+                    <h2>Apply On Page</h2>
+                    <p className='card-text'>Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.</p>
                     <img className='card-1' src={img10} alt='ntg' />
                 </div>
             </div>

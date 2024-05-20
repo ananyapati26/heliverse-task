@@ -17,16 +17,16 @@ const Features = () => {
       </div>
       <div className='feature'>
         <div className="feature-child f-1">
-          <div className='feature-img'><img src={img6} alt="feature-img"  width={"90%"} /></div>
-          <div className='desc'><h2>Light Weight</h2><div><p>Motion Art for Elementor is designed to be lightweight.</p></div></div>
+          <div className='feature-img'><img src={img9} alt="feature-img"  width={"90%"} /></div>
+          <div className='desc'><h2>Light Weight</h2><div className='desc-p'><p>Motion Art for Elementor is designed to be lightweight.</p></div></div>
         </div>
         <div className="feature-child f-2">
-          <div className='feature-img'><img src={img9} alt="feature-img"  width={"90%"} /></div>
-          <div className='desc'><h2>Light Weight</h2><div><p>Motion Art for Elementor is designed to be lightweight.</p></div></div>
+          <div className='feature-img'><img src={img7} alt="feature-img"  width={"90%"} /></div>
+          <div className='desc'><h2>100% Responsive</h2><div className='desc-p'><p>Create a consistent visual experience across all devices..</p></div></div>
         </div>
         <div className="feature-child f-3">
-          <div className='feature-img'><img src={img7} alt="feature-img"  width={"90%"} /></div>
-          <div className='desc'><h2>Light Weight</h2><div><p>Motion Art for Elementor is designed to be lightweight.</p></div></div>
+          <div className='feature-img'><img src={img6} alt="feature-img"  width={"90%"} /></div>
+          <div className='desc'><h2>User Friendly Interface</h2><div className='desc-p'><p>Ensure a smooth experience for both applicants and administrators.</p></div></div>
         </div>
         
       </div>

@@ -17,6 +17,8 @@
     row-gap: 20px;
     /* border: 1px solid red; */
     border-radius: 10px;
+    z-index: 1;
+    position: relative;
 }
 .s-1{
     display: flex;
@@ -27,20 +29,35 @@
     align-items: center;
     row-gap: 20px;
     text-align: center;
-    width: 37%;
+    width: 39%;
+    z-index: 1;
+    position: relative;
     /* border: 2px solid green; */
 }
 .pic{
     padding-top: 10px;
     width: 300px;
+    z-index: 1;
+    position: relative;
 }
 .s-text1{
     margin: 0;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size: x-large;
+    z-index: 1;
+    position: relative;
+    color: #EEE5FF;
+    font-family: "Sora", Sans-serif;
+    /* font-size: 25px; */
+    font-weight: 500;
 }
 .s-text2{
     margin: 0;
     color: rgb(165, 165, 165);
     font-size: small;
+    z-index: 1;
+    position: relative;
+    color: #EEE5FFBD;
+    font-family: "Outfit", Sans-serif;
+    line-height: 15px;
 }

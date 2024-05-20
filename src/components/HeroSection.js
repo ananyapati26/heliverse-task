@@ -13,8 +13,8 @@ const HeroSection = () => {
     return (
         <section className="hero-section" id="home">
             <div className="head-1">
-                <span><img src={photo} width={"70%"}/></span>
-                <button className='btn'>Purchase Now</button>
+                <span style={{zIndex:"1"}}><img src={photo} width={"70%"}/></span>
+                <a href='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891' target="_blank"><button className='btn'>Purchase Now</button></a>
             </div>
             <div className="head-2">
                 <div className='child-1'>
@@ -32,19 +32,19 @@ const HeroSection = () => {
                     <p className='text'>Trusted by thousands of users around the world</p>
                     <div className='logos'>
                         <div className='l'>
-                            <img src={img2} alt='ntg' width={"25%"} />
+                            <img style={{zIndex:"1",position:"relative"}} src={img2} alt='ntg' width={"25%"} />
                             <div className='star'>
                                 <img src={img4} alt='ntg' width={"60%"} height={"60%"} />
                                 <div><strong>4.5 score,9 reviews</strong></div></div>
                         </div>
                         <div className='l'>
-                            <img src={img1} alt='ntg' width={"25%"} />
+                            <img style={{zIndex:"1",position:"relative"}} src={img1} alt='ntg' width={"25%"} />
                             <div className='star'>
                                 <img src={img4} alt='ntg' width={"60%"} height={"60%"} />
                                 <div><strong>4.5 score,9 reviews</strong></div></div>
                         </div>
                         <div className='l'>
-                            <img src={img3} alt='ntg' width={"25%"} />
+                            <img style={{zIndex:"1",position:"relative"}} src={img3} alt='ntg' width={"25%"} />
                             <div className='star'>
                                 <img src={img4} alt='ntg' width={"60%"} height={"60%"} />
                                 <div><strong>4.5</strong> score,9 reviews</div></div>
@@ -58,10 +58,10 @@ const HeroSection = () => {
                     Magic Wand & Charm Your Visitors</div>
                    <p className='para'> Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse
                     your website with visually stunning motion art elements.</p>
-                    <button className='btn-2'>purchase from envato </button>
+                    <a href='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891' target="_blank"><button className='btn-2'>purchase from envato &#x2192; </button></a>
                 </div>
                 <div className='c-2'>
-                    <img src={img5} alt='ntg' width={"100%"} height={"60%"} />
+                    <img style={{zIndex:"1",position:"relative"}} src={img5} alt='ntg' width={"90%"} height={"60%"} />
                 </div>
             </div>
 
