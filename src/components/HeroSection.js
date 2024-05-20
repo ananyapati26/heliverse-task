@@ -35,19 +35,19 @@ const HeroSection = () => {
                             <img style={{zIndex:"1",position:"relative"}} src={img2} alt='ntg' width={"25%"} />
                             <div className='star'>
                                 <img src={img4} alt='ntg' width={"60%"} height={"60%"} />
-                                <div><strong>4.5 score,9 reviews</strong></div></div>
+                                <div style={{color:'grey'}}><strong>4.5 score,9 reviews</strong></div></div>
                         </div>
                         <div className='l'>
                             <img style={{zIndex:"1",position:"relative"}} src={img1} alt='ntg' width={"25%"} />
                             <div className='star'>
                                 <img src={img4} alt='ntg' width={"60%"} height={"60%"} />
-                                <div><strong>4.5 score,9 reviews</strong></div></div>
+                                <div style={{color:'grey'}}><strong>4.5 score,9 reviews</strong></div></div>
                         </div>
                         <div className='l'>
                             <img style={{zIndex:"1",position:"relative"}} src={img3} alt='ntg' width={"25%"} />
                             <div className='star'>
                                 <img src={img4} alt='ntg' width={"60%"} height={"60%"} />
-                                <div><strong>4.5</strong> score,9 reviews</div></div>
+                                <div style={{color:'grey'}}><strong>4.5</strong> score,9 reviews</div></div>
                         </div>
                     </div>
                 </div>
