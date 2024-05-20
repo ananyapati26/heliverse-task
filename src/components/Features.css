@@ -122,3 +122,9 @@
     /* line-height: 30px; */
     /* margin: 0px 0px 0px 0px; */
 }
+@media (max-width: 819px) {
+    
+    .heading{
+        max-width: 100%;
+    }
+  }
